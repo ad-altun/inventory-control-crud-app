@@ -12,6 +12,15 @@ Our web-based warehouse management application is designed to streamline invento
 
 The Warehouse Management System provides a fundamental solution for managing inventory operations. Users can add, edit, view, and delete products while maintaining accurate stock levels and location tracking. The application features real-time search capabilities, sortable data views, and paginated product listings for efficient data management.
 
+## **Live Demo:** 
+- [warehouse.denizaltun.de](https://warehouse.denizaltun.de/)
+
+## Screenshots
+
+### Home Page
+
+![Warehouse Management System](frontend/src/public/screenshots/home-page.png)
+
 ## Technology Stack
 
 ### Backend
