@@ -2,6 +2,8 @@ import type {Product} from "../types/types.ts";
 
 export type ProductTableProps = {
     products: Product[];
+    currentPage: number;
+    itemsPerPage: number;
     onProductEditButtonClicked: (product: Product) => void;
     onProductDetailsButtonClicked: (product: Product) => void;
     onProductDeleteButtonClicked: (product: Product) => void;
@@ -38,7 +40,7 @@ export default function Home(props: Readonly<ProductTableProps>) {
                             return (
                                 <tr key={product.id} className={`table-row ${isEven} card`}>
                                     <td className="table-data">
-                                        {index + 1}
+                                        {((props.currentPage - 1) * props.itemsPerPage) + index + 1}
                                     </td>
                                     <td data-label="Name: "
                                         className="table-data">
