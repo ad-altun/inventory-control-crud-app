@@ -19,7 +19,7 @@ The Warehouse Management System provides a fundamental solution for managing inv
 
 ### Home Page
 
-![Warehouse Management System](frontend/src/public/screenshots/home-page.png)
+![Warehouse Management System](frontend/public/screenshots/home-page.png)
 
 ## Technology Stack
 
